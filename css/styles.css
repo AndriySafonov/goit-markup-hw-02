@@ -1,0 +1,240 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* --primary-color #212121; */
+/* --secondary-color #757575 */
+/* --white #FFFFFF; */
+/* --blue #2196F3; */
+
+:root {
+  --primary-color: #212121;
+  --secondary-color: #757575;
+  --white: #ffffff;
+  --blue: #2196f3;
+}
+
+/* ---------------header--------------- */
+
+.header {
+}
+.header-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+  text-decoration: none;
+}
+.logo-akcent {
+  color: var(--blue);
+}
+.site-nav {
+}
+.list {
+  list-style: none;
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--blue);
+}
+.auth-nav {
+}
+.header-mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--blue);
+}
+
+/* ---------------шапка--------------- */
+
+.hero {
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: gray;
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background-color: var(--blue);
+  cursor: pointer;
+}
+
+/* ---------------переваги--------------- */
+
+.advantages {
+}
+.advantages-title {
+}
+.advantages-list {
+}
+.advantages-item {
+}
+.advantages-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+.advantages-description {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-color);
+}
+
+/* ---------------чим займаємося--------------- */
+
+.features {
+}
+.features-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+.features-list {
+}
+.features-item {
+}
+.features-link {
+}
+
+/* ---------------Наша команда--------------- */
+
+.team {
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--primary-color);
+}
+.team-list {
+}
+.team-item {
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--primary-color);
+}
+.team-description {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-color);
+}
+
+/* ---------------портфоліо--------------- */
+
+.button-list {
+}
+.button-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.button-item:hover,
+.button-item:focus {
+  color: var(--blue);
+}
+.portfolio-list {
+}
+.list {
+}
+.portfolio-item {
+}
+.portfolio-link {
+  text-decoration: none;
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-color);
+}
+.portfolio-subtitle {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--secondary-color);
+}
+
+/* ---------------footer--------------- */
+
+.footer {
+}
+.footer-logo {
+}
+.logo-akcent {
+}
+.footer-list {
+  background-color: #2f303a;
+}
+.list {
+}
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white);
+}
+.footer-mail {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-address:hover,
+.footer-address:focus,
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--blue);
+}
