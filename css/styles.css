@@ -71,13 +71,13 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--mail-and-tel-color);
+  color: var(--secondary-color);
 }
 .header-tel {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--mail-and-tel-color);
+  color: var(--secondary-color);
 }
 .header-mail:hover,
 .header-mail:focus,
@@ -190,6 +190,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   border-radius: 4px;
   color: var(--primary-color);
   cursor: pointer;
